@@ -1,0 +1,27 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+    "title": "Comece por aqui!",
+    "description": "Este vídeo é destinado a usuários que se cadastraram agora ou aos que desejam saber mais sobre a nossa plataforma e como ela funciona.",
+    "duration": 420
+}
+
+###
+
+GET http://localhost:3333/videos
+
+###
+
+PUT http://localhost:3333/videos/4bb01b43-864d-47e6-ae0a-700f0e8f88e1
+Content-Type: application/json
+
+{
+    "title": "O começo de tudo!",
+    "description": "Este vídeo é destinado a usuários que se cadastraram agora ou aos que desejam saber mais sobre a nossa plataforma e como ela funciona.",
+    "duration": 480
+}
+
+### 
+
+DELETE http://localhost:3333/videos/4bb01b43-864d-47e6-ae0a-700f0e8f88e1
