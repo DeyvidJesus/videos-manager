@@ -1,4 +1,4 @@
-POST http://localhost:3333/videos
+POST https://videos-manager.onrender.com/videos
 Content-Type: application/json
 
 {
@@ -9,11 +9,11 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3333/videos
+GET https://videos-manager.onrender.com/videos
 
 ###
 
-PUT http://localhost:3333/videos/4bb01b43-864d-47e6-ae0a-700f0e8f88e1
+PUT https://videos-manager.onrender.com/videos/36011bbe-bf81-41a4-b001-7304a135e145
 Content-Type: application/json
 
 {
@@ -24,4 +24,4 @@ Content-Type: application/json
 
 ### 
 
-DELETE http://localhost:3333/videos/4bb01b43-864d-47e6-ae0a-700f0e8f88e1
+DELETE https://videos-manager.onrender.com/videos/36011bbe-bf81-41a4-b001-7304a135e145
